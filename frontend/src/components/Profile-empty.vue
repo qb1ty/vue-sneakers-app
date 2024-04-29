@@ -6,13 +6,12 @@
             </span>
         </div>
         <div class="text-gray-500 text-center mt-16 text-sm">
-            
-                <span>
-                    Уже зарегистрированы? 
-                    <router-link to="/profile/login">
-                        <span class="cursor-pointer">Войти тут</span>
-                    </router-link>
-                </span>
+            <span>
+                Уже зарегистрированы? 
+                <router-link to="/profile/login">
+                    <span class="cursor-pointer">Войти тут</span>
+                </router-link>
+            </span>
         </div>
     </div>
 </template>

@@ -67,13 +67,13 @@ const createOrder = async () => {
                     <div class="flex gap-2">
                         <span>Итого:</span>
                         <div class="flex-1 border-b border-dashed"></div>
-                        <b>{{ totalPrice }} руб.</b>
+                        <b>{{ totalPrice }} KZT.</b>
                     </div>
 
                     <div class="flex gap-2">
                         <span>Налог 5%:</span>
                         <div class="flex-1 border-b border-dashed"></div>
-                        <b>{{ vatPrice }} руб.</b>
+                        <b>{{ vatPrice }} KZT.</b>
                     </div>
 
                     <button

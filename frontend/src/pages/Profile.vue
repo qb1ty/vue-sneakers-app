@@ -29,9 +29,9 @@ const exitProfile = () => {
             </div>
         </div>
         <div v-else class="relative h-[75vh] w-full flex items-center justify-center text-center">
-            <img src="/exit.svg" alt="Exit" class="absolute top-[-10px] right-[85px] w-6 z-[10] cursor-pointer">
-            <div class="absolute top-[-20px] right-0 bg-red-500 py-2 pl-14 pr-5 border border-transparent rounded-lg cursor-pointer">
-                <button type="button" @click="exitProfile">
+            <img src="/exit.svg" alt="Exit" class="absolute top-[-10px] right-[85px] w-6 z-[10] cursor-pointer" @click="exitProfile">
+            <div class="absolute top-[-20px] right-0 bg-red-500 py-2 pl-14 pr-5 border border-transparent rounded-lg cursor-pointer" @click="exitProfile">
+                <button type="button">
                     Выйти
                 </button>
             </div>

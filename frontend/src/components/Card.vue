@@ -25,7 +25,7 @@ const viewDeleteButton = Boolean(props.removeFavoriteItem)
         <div class="flex justify-between mt-3">
             <div class="flex flex-col">
                 <span class="text-slate-400">ЦЕНА: </span>
-                <span class="font-bold">{{ price }} руб.</span>
+                <span class="font-bold">{{ price }} KZT.</span>
             </div>
             <div>
                 <img v-if="viewClickButton" @click="onClickedAdd" :src="!isAdded ? '/plus.svg' : '/checked.svg' " alt="Plus">

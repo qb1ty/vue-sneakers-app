@@ -6,7 +6,7 @@
             <p>{{ title }}</p>
 
             <div class="flex justify-between mt-2">
-                <b class="flex-1">{{ price }} руб.</b>
+                <b class="flex-1">{{ price }} KZT.</b>
                 <div @click="() => emit('onClickRemove')">
                     <img src="/close.svg" alt="Close" class="opacity-100 cursor-pointer">
                 </div>

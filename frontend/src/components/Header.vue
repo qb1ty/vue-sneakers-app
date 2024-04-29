@@ -13,7 +13,7 @@
       <ul class="flex items-center gap-10">
         <li class="transition-all flex items-center cursor-pointer gap-3 text-gray-500 hover:text-black duration-100" @click="() => emit('changeDrawer')">
           <img src="/cart.svg" alt="Cart">
-          <b>{{ totalPrice }} руб.</b>
+          <b>{{ totalPrice }} KZT.</b>
         </li>
         <router-link to="/favorites">
           <li class="flex items-center cursor-pointer gap-3 text-gray-500">
